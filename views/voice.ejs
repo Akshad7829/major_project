@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>YOSO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+  </head>
+  <body>
+    <form action="">
+           
+    <div id="actionDiv">
+      <label for="action">Choose Action</label>
+      <select id="action">
+          <option value="login">Login</option>
+          <option value="register">Register</option>
+      </select>
+      <input id="username" type="text" placeholder="Enter Your Username"  />
+
+  </div>
+
+    <p>Please Read the Below phrase : </p><br>
+     <h2><b> test </b></h2>
+    <div id="controls">
+  	 <button id="recordButton">Record</button>
+  	 <button id="pauseButton" disabled>Pause</button>
+  	 <button id="stopButton" disabled>Stop</button>
+    </div>
+    <div style="visibility: hidden;" id="formats">Format: start recording to see sample rate</div>
+  	<h3></h3>
+  	<ol id="recordingsList"></ol>
+
+      <button type="submit" id="submitButton" value="Submit">Submit</button>
+      <!-- <input type="submit" > -->
+    </form>
+  	
+    <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+    <script src="v.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+          
+    </script>
+
+  </body>
+</html>
